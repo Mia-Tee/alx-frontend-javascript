@@ -1,4 +1,4 @@
-xport default class HolbertonCourse {
+export default class HolbertonCourse {
   constructor(name, length, students) {
     // verify type during object creation
     if (typeof name !== 'string' || typeof length !== 'number' || !Array.isArray(students)) {
